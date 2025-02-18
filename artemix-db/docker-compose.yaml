@@ -1,0 +1,32 @@
+# Docker Compose file is only for local testing. No production use!
+services:
+    questdb:
+        image: questdb/questdb:8.2.2
+        container_name: questdb
+        restart: always
+        ports:
+            - 9000:9000     # REST API / Web Console
+            - 9009:9009     # InfluxDB Line Protocol
+            - 8812:8812     # Postgres Wire Protocol
+            - 9003:9003     # Min Health Server
+        volumes:
+            - ./db-data:/root/.questdb
+        environment:
+            - QDB_LOG_W_STDOUT_LEVEL=ERROR
+            - QDB_LOG_W_FILE_LEVEL=ERROR
+            - QDB_LOG_W_HTTP_MIN_LEVEL=ERROR
+            - QDB_SHARED_WORKER_COUNT=2                 # Amount of worker threads
+            - QDB_PG_USER=test                          # postgresql user -> Configured in .env file
+            - QDB_PG_PASSWORD=password                  # postgresql password -> Configured in .env file
+            - QDB_TELEMETRY_ENABLED=true                # Disable telemetry
+            - QDB_HTTP_ENABLED=true                     # Disable http server gui and rest interface
+            - QDB_HTTP_BIND_TO=0.0.0.0:9000             # http server
+            - QDB_HTTP_SECURITY_READONLY=true           # HTTP read only mode
+            - QDB_HTTP_MIN_ENABLED=true                 # Disable http health server
+            - QDB_HTTP_MIN_BIND_TO=0.0.0.0:9003         # http health server
+            - QDB_PG_ENABLED=false                      # Disable postgresql
+            - QDB_PG_NET_BIND_TO=0.0.0.0:8812           # postgresql server
+            - QBD_LINE_TCP_ENABLED=false                # Disable influxdb tcp server
+            - QBD_LINE_TCP_NET_BIND_TO=0.0.0.0:9009     # influxdb tcp server
+            - QBD_LINE_UDP_ENABLED=false                # Disable influxdb udp server
+            - QBD_LINE_UDP_NET_BIND_TO=0.0.0.0:9009     # influxdb udp server
