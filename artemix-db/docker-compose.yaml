@@ -16,8 +16,6 @@ services:
             - QDB_LOG_W_FILE_LEVEL=ERROR
             - QDB_LOG_W_HTTP_MIN_LEVEL=ERROR
             - QDB_SHARED_WORKER_COUNT=2                 # Amount of worker threads
-            - QDB_PG_USER=test                          # postgresql user -> Configured in .env file
-            - QDB_PG_PASSWORD=password                  # postgresql password -> Configured in .env file
             - QDB_TELEMETRY_ENABLED=true                # Disable telemetry
             - QDB_HTTP_ENABLED=true                     # Disable http server gui and rest interface
             - QDB_HTTP_BIND_TO=0.0.0.0:9000             # http server

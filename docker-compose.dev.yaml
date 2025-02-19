@@ -1,0 +1,8 @@
+services:
+  questdb:
+    extends:
+      file: artemix-db/docker-compose.yaml
+      service: questdb
+    environment:
+      - QDB_PG_USER=dev         # postgresql user -> Configured in .env file
+      - QDB_PG_PASSWORD=devpw   # postgresql password -> Configured in .env file
