@@ -1,0 +1,2354 @@
+{
+    "AIRLOCK000001": {
+        "Name": "AIRLOCK000001_UIA_EMU1_V",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Supplies power through the Umbilical Interface Assembly (UIA) to the spacesuits (EMU 1), Voltage"
+    },
+    "AIRLOCK000002": {
+        "Name": "AIRLOCK000002_UIA_EMU1_A",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Supplies power through the Umbilical Interface Assembly (UIA) to the spacesuits (EMU 1), Current"
+    },
+    "AIRLOCK000003": {
+        "Name": "AIRLOCK000003_UIA_EMU2_V",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Supplies power through the Umbilical Interface Assembly (UIA) to the spacesuits (EMU 2), Voltage"
+    },
+    "AIRLOCK000004": {
+        "Name": "AIRLOCK000004_UIA_EMU2_A",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Supplies power through the Umbilical Interface Assembly (UIA) to the spacesuits (EMU 2), Current"
+    },
+    "AIRLOCK000005": {
+        "Name": "AIRLOCK000005_IRU_V",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "In-flight Refill Unit (IRU), Voltage"
+    },
+    "AIRLOCK000006": {
+        "Name": "AIRLOCK000006_IRU_A",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "In-flight Refill Unit (IRU), Current"
+    },
+    "AIRLOCK000007": {
+        "Name": "AIRLOCK000007_EMU1_V",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Supplies power to the spacesuits (EVA Mobility Unit, EMU 1), Voltage"
+    },
+    "AIRLOCK000008": {
+        "Name": "AIRLOCK000008_EMU1_A",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Supplies power to the spacesuits (EVA Mobility Unit, EMU 1), Current"
+    },
+    "AIRLOCK000009": {
+        "Name": "AIRLOCK000009_EMU2_V",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Supplies power to the spacesuits (EVA Mobility Unit, EMU 2), Voltage"
+    },
+    "AIRLOCK000010": {
+        "Name": "AIRLOCK000010_EMU2_A",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Supplies power to the spacesuits (EVA Mobility Unit, EMU 2), Current"
+    },
+    "AIRLOCK000011": {
+        "Name": "AIRLOCK000011_BCA1_V",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Battery Charger Assembly (BCA) 1 Voltage"
+    },
+    "AIRLOCK000012": {
+        "Name": "AIRLOCK000012_BCA1_A",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Battery Charger Assembly (BCA) 1 Current"
+    },
+    "AIRLOCK000013": {
+        "Name": "AIRLOCK000013_BCA2_V",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Battery Charger Assembly (BCA) 2 Voltage"
+    },
+    "AIRLOCK000014": {
+        "Name": "AIRLOCK000014_BCA2_A",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Battery Charger Assembly (BCA) 2 Current"
+    },
+    "AIRLOCK000015": {
+        "Name": "AIRLOCK000015_BCA3_V",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Battery Charger Assembly (BCA) 3 Voltage"
+    },
+    "AIRLOCK000016": {
+        "Name": "AIRLOCK000016_BCA3_A",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Battery Charger Assembly (BCA) 3 Current"
+    },
+    "AIRLOCK000017": {
+        "Name": "AIRLOCK000017_BCA4_V",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Battery Charger Assembly (BCA) 4 Voltage"
+    },
+    "AIRLOCK000018": {
+        "Name": "AIRLOCK000018_BCA4_A",
+        "Parent": "EVA",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Battery Charger Assembly (BCA) 4 Current"
+    },
+    "AIRLOCK000019": {
+        "Name": "AIRLOCK000019_BCA1_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=Normal|1=No Data|2=Missing  Data|3=Extra Data",
+        "Description": "Battery Charger Assembly (BCA) 1 Status"
+    },
+    "AIRLOCK000020": {
+        "Name": "AIRLOCK000020_BCA2_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=Normal|1=No Data|2=Missing  Data|3=Extra Data",
+        "Description": "Battery Charger Assembly (BCA) 2 Status"
+    },
+    "AIRLOCK000021": {
+        "Name": "AIRLOCK000021_BCA3_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=Normal|1=No Data|2=Missing  Data|3=Extra Data",
+        "Description": "Battery Charger Assembly (BCA) 3 Status"
+    },
+    "AIRLOCK000022": {
+        "Name": "AIRLOCK000022_BCA4_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=Normal|1=No Data|2=Missing  Data|3=Extra Data",
+        "Description": "Battery Charger Assembly (BCA) 4 Status"
+    },
+    "AIRLOCK000023": {
+        "Name": "AIRLOCK000023_BCA1_CH1_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 1 Channel 1 Status"
+    },
+    "AIRLOCK000024": {
+        "Name": "AIRLOCK000024_BCA1_CH2_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 1 Channel 2 Status"
+    },
+    "AIRLOCK000025": {
+        "Name": "AIRLOCK000025_BCA1_CH3_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 1 Channel 3 Status"
+    },
+    "AIRLOCK000026": {
+        "Name": "AIRLOCK000026_BCA1_CH4_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 1 Channel 4 Status"
+    },
+    "AIRLOCK000027": {
+        "Name": "AIRLOCK000027_BCA1_CH5_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 1 Channel 5 Status"
+    },
+    "AIRLOCK000028": {
+        "Name": "AIRLOCK000028_BCA1_CH6_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 1 Channel 6 Status"
+    },
+    "AIRLOCK000029": {
+        "Name": "AIRLOCK000029_BCA2_CH1_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 2 Channel 1 Status"
+    },
+    "AIRLOCK000030": {
+        "Name": "AIRLOCK000030_BCA2_CH2_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 2 Channel 2 Status"
+    },
+    "AIRLOCK000031": {
+        "Name": "AIRLOCK000031_BCA2_CH3_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 2 Channel 3 Status"
+    },
+    "AIRLOCK000032": {
+        "Name": "AIRLOCK000032_BCA2_CH4_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 2 Channel 4 Status"
+    },
+    "AIRLOCK000033": {
+        "Name": "AIRLOCK000033_BCA2_CH5_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 2 Channel 5 Status"
+    },
+    "AIRLOCK000034": {
+        "Name": "AIRLOCK000034_BCA2_CH6_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 2 Channel 6 Status"
+    },
+    "AIRLOCK000035": {
+        "Name": "AIRLOCK000035_BCA3_CH1_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 3 Channel 1 Status"
+    },
+    "AIRLOCK000036": {
+        "Name": "AIRLOCK000036_BCA3_CH2_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 3 Channel 2 Status"
+    },
+    "AIRLOCK000037": {
+        "Name": "AIRLOCK000037_BCA3_CH3_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 3 Channel 3 Status"
+    },
+    "AIRLOCK000038": {
+        "Name": "AIRLOCK000038_BCA3_CH4_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 3 Channel 4 Status"
+    },
+    "AIRLOCK000039": {
+        "Name": "AIRLOCK000039_BCA3_CH5_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 3 Channel 5 Status"
+    },
+    "AIRLOCK000040": {
+        "Name": "AIRLOCK000040_BCA3_CH6_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 3 Channel 6 Status"
+    },
+    "AIRLOCK000041": {
+        "Name": "AIRLOCK000041_BCA4_CH1_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 4 Channel 1 Status"
+    },
+    "AIRLOCK000042": {
+        "Name": "AIRLOCK000042_BCA4_CH2_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 4 Channel 2 Status"
+    },
+    "AIRLOCK000043": {
+        "Name": "AIRLOCK000043_BCA4_CH3_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 4 Channel 3 Status"
+    },
+    "AIRLOCK000044": {
+        "Name": "AIRLOCK000044_BCA4_CH4_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 4 Channel 4 Status"
+    },
+    "AIRLOCK000045": {
+        "Name": "AIRLOCK000045_BCA4_CH5_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 4 Channel 5 Status"
+    },
+    "AIRLOCK000046": {
+        "Name": "AIRLOCK000046_BCA4_CH6_State",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=No History - a charge has not been initiated yet|1=Presently charging|2=Task completed normally|3=Task terminated due to stop switch being toggled|4=Task terminated due to an open circuit error|5=Task terminated due to Wrong Batt or Hi-imp|6=Task terminated due to an over-temperature error|7=Amp-hour capacity test result OK|8=Amp-hour capacity test error|9=Task terminated due to low charge slope error|10=Task terminated due to power error|11=Task terminated due to reverse-polarity error|12=Task terminated due to a short-circuit error|13=Task terminated due to a time-out error|14=Task terminated due to an external-temperature error|15=Discharge|16=Wait on Discharge|17=Wait on Charge",
+        "Description": "Battery Charger Assembly (BCA) 4 Channel 6 Status"
+    },
+    "AIRLOCK000047": {
+        "Name": "AIRLOCK000047_AtmospherePump_VoltageState",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Pumps atmosphere from Airlock into Node one during depress, voltage status."
+    },
+    "AIRLOCK000048": {
+        "Name": "AIRLOCK000048_AtmospherePump_SwitchState",
+        "Parent": "EVA",
+        "Units": "STATE",
+        "Type": "0=PUMP OFF CMD|1=PUMP ON CMD",
+        "Description": "Pumps atmosphere from Airlock into Node one during depress, switch status."
+    },
+    "AIRLOCK000049": {
+        "Name": "AIRLOCK000049_CrewlockPressure",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Crewlock Pressure"
+    },
+    "AIRLOCK000050": {
+        "Name": "AIRLOCK000050_O2SupplyHigh_ValvePosition",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "0=CLOSED|1=OPEN|2=IN-TRANSIT|3=FAILED",
+        "Description": "Hi P O2 Supply valve position"
+    },
+    "AIRLOCK000051": {
+        "Name": "AIRLOCK000051_O2SupplyLow_ValvePosition",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "0=CLOSED|1=OPEN|2=IN-TRANSIT|3=FAILED",
+        "Description": "Lo P O2 Supply Valve position"
+    },
+    "AIRLOCK000052": {
+        "Name": "AIRLOCK000052_N2Supply_ValvePosition",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "0=CLOSED|1=OPEN|2=IN-TRANSIT|3=FAILED",
+        "Description": "N2 Supply Valve position"
+    },
+    "AIRLOCK000053": {
+        "Name": "AIRLOCK000053_AC_State",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST",
+        "Description": "Airlock Air Conditioner State"
+    },
+    "AIRLOCK000054": {
+        "Name": "AIRLOCK000054_AirlockPressure",
+        "Parent": "ETHOS",
+        "Units": "PSI",
+        "Type": "{0:f2}",
+        "Description": "Airlock Pressure"
+    },
+    "AIRLOCK000055": {
+        "Name": "AIRLOCK000055_O2Tank_HighPressure",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Airlock Hi P O2 Tank Pressure"
+    },
+    "AIRLOCK000056": {
+        "Name": "AIRLOCK000056_O2Tank_LowPressure",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Airlock Lo P O2 Tank Pressure"
+    },
+    "AIRLOCK000057": {
+        "Name": "AIRLOCK000057_N2Tank_Pressure",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Airlock N2 Tank Pressure"
+    },
+    "AIRLOCK000058": {
+        "Name": "AIRLOCK000058_AirlockMultiplexer_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Airlock Multiplexer/Demultiplexer (MDM) on-off status"
+    },
+    "NODE1000001": {
+        "Name": "NODE1000001_Multiplexer1_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Node 1 Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "NODE1000002": {
+        "Name": "NODE1000002_Multiplexer2_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Node 1 Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "NODE2000001": {
+        "Name": "NODE2000001_MT_CoolantWaterQty",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Coolant water quantity (Node 2), MT"
+    },
+    "NODE2000002": {
+        "Name": "NODE2000002_LT_CoolantWaterQty",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Coolant water quantity (Node 2), LT"
+    },
+    "NODE2000003": {
+        "Name": "NODE2000003_AC_State",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST",
+        "Description": "Node 2 Air Conditioner State"
+    },
+    "NODE2000004": {
+        "Name": "NODE2000004_Multiplexer2_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Node 2 Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "NODE2000005": {
+        "Name": "NODE2000005_Multiplexer1_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Node 2 Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "NODE2000006": {
+        "Name": "NODE2000006_AirCooling_FluidTemp",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Air Cooling Fluid Temp (Node 2)"
+    },
+    "NODE2000007": {
+        "Name": "NODE2000007_AvioncsCooling_FluidTemp",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Avionics Cooling Fluid Temp (Node 2)"
+    },
+    "NODE3000001": {
+        "Name": "NODE3000001_ppO2",
+        "Parent": "ETHOS",
+        "Units": "PSIA",
+        "Type": "{0:f2}",
+        "Description": "Node 3 ppO2"
+    },
+    "NODE3000002": {
+        "Name": "NODE3000002_ppN2",
+        "Parent": "ETHOS",
+        "Units": "PSIA",
+        "Type": "{0:f2}",
+        "Description": "Node 3 ppN2"
+    },
+    "NODE3000003": {
+        "Name": "NODE3000003_ppC02",
+        "Parent": "ETHOS",
+        "Units": "PSIA",
+        "Type": "{0:f2}",
+        "Description": "Node 3 ppCO2"
+    },
+    "NODE3000004": {
+        "Name": "NODE3000004_UrinProcessor_State",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "2=STOP|4=SHUTDOWN|8=MAINTENANCE|16=NORMAL|32=STANDBY|64=IDLE|128=SYSTEM INITIALIZED",
+        "Description": "Urine Processor State"
+    },
+    "NODE3000005": {
+        "Name": "NODE3000005_UrineTankQty",
+        "Parent": "ETHOS",
+        "Units": "PCT",
+        "Type": "{0:f1}",
+        "Description": "Urine Tank Qty"
+    },
+    "NODE3000006": {
+        "Name": "NODE3000006_WaterProcessor_State",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "1=STOP|2=SHUTDOWN|3=STANDBY|4=PROCESS|5=HOT SERVICE|6=FLUSH|7=WARM SHUTDOWN",
+        "Description": "Water Processor State"
+    },
+    "NODE3000007": {
+        "Name": "NODE3000007_WaterProcessorStep_State",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "0=NONE|1=VENT|2=HEATUP|3=PURGE|4=FLOW|5=TEST|6=TEST_SV_1|7=TEST_SV_2|8=SERVICE",
+        "Description": "Water Processor Step"
+    },
+    "NODE3000008": {
+        "Name": "NODE3000008_WasteWaterTankQty",
+        "Parent": "ETHOS",
+        "Units": "PCT",
+        "Type": "{0:f1}",
+        "Description": "Waste Water Tank Qty"
+    },
+    "NODE3000009": {
+        "Name": "NODE3000009_CleanWaterTankQty",
+        "Parent": "ETHOS",
+        "Units": "PCT",
+        "Type": "{0:f1}",
+        "Description": "Clean Water Tank Qty"
+    },
+    "NODE3000010": {
+        "Name": "NODE3000010_OxygenGenerator_State",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "1=PROCESS|2=STANDBY|3=SHUTDOWN|4=STOP|5=VENT_DOME|6=INERT_DOME|7=FAST_SHUTDOWN|8=N2_PURGE_SHUTDOWN",
+        "Description": "Oxygen Generator State"
+    },
+    "NODE3000011": {
+        "Name": "NODE3000011_O2ProductionRate",
+        "Parent": "ETHOS",
+        "Units": "LBM/D",
+        "Type": "{0:f2}",
+        "Description": "O2 Production rate"
+    },
+    "NODE3000012": {
+        "Name": "NODE3000012_AvionicsCooling_FluidTemp",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Avionics Cooling Fluid Temp (Node 3)"
+    },
+    "NODE3000013": {
+        "Name": "NODE3000013_AirCooling_FluidTemp",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Air Cooling Fluid Temp (Node 3)"
+    },
+    "NODE3000014": {
+        "Name": "NODE3000014_HCZ_Multiplexer2_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Hub Control Zone (HCZ) Multiplexer/Demultiplexer 2 (MDM) on-off status"
+    },
+    "NODE3000015": {
+        "Name": "NODE3000015_Multiplexer2_state",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Node 3 Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "NODE3000016": {
+        "Name": "NODE3000016_HCZ_Multiplexer1_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Hub Control Zone (HCZ) Multiplexer/Demultiplexer 1 (MDM) on-off status"
+    },
+    "NODE3000017": {
+        "Name": "NODE3000017_CoolantWaterQty",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Coolant water quantity (Node 3)"
+    },
+    "NODE3000018": {
+        "Name": "NODE3000018_AC_State",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST",
+        "Description": "Node 3 Air Conditioner State"
+    },
+    "NODE3000019": {
+        "Name": "NODE3000019_CoolantWaterQty",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Coolant water quantity (Node 3)"
+    },
+    "NODE3000020": {
+        "Name": "NODE3000020_Multiplexer1_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Node 3 Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "P1000001": {
+        "Name": "P1000001_LoopB_Flowrate",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Loop B Pump Flowrate (kg/hr)"
+    },
+    "P1000002": {
+        "Name": "P1000002_LoopB_Pressure",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Loop B PM Out Press (kPa)"
+    },
+    "P1000003": {
+        "Name": "P1000003_LoopB_Temp",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Loop B PM Out Temp (deg C)"
+    },
+    "P1000004": {
+        "Name": "P1000004_RFG2_AximuthGimbalPosition",
+        "Parent": "CATO",
+        "Units": "DEG",
+        "Type": "{0:f2}",
+        "Description": "S-Band Radio Frequency Group (RFG 2) Azimuth Gimbal Position"
+    },
+    "P1000005": {
+        "Name": "P1000005_RFG2_ElevationGimbalPosition",
+        "Parent": "CATO",
+        "Units": "DEG",
+        "Type": "{0:f2}",
+        "Description": "S-Band Radio Frequency Group (RFG 2) Elevation Gimbal Position"
+    },
+    "P1000006": {
+        "Name": "P1000006_P1Truss_Multiplexer1_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "P1 Truss Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "P1000007": {
+        "Name": "P1000007_RFG2_State",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "S-Band Radio Frequency Group (RFG 2), on-off status"
+    },
+    "P1000008": {
+        "Name": "P1000008_PortThermalRadiator_Multiplexer_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Port Thermal Radiator (STR) Multiplexer/Demultiplexer (MDM) on-off status"
+    },
+    "P1000009": {
+        "Name": "P1000009_P1Truss_Multiplexer2_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "P1 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "P3000001": {
+        "Name": "P3000001_P3Truss_Multiplexer1_State",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "P3 Truss Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "P3000002": {
+        "Name": "P3000002",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "P3 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "P4000001": {
+        "Name": "P4000001",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 2A - Drive Voltage"
+    },
+    "P4000002": {
+        "Name": "P4000002",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 2A - Drive Current"
+    },
+    "P4000003": {
+        "Name": "P4000003",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Not Enabled|1=Enabled",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 2A Multiplexer/Demultiplexer (MDM) 120 Volt On-Off Status"
+    },
+    "P4000004": {
+        "Name": "P4000004",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 4A - Drive Voltage"
+    },
+    "P4000005": {
+        "Name": "P4000005",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 4A - Drive Current"
+    },
+    "P4000006": {
+        "Name": "P4000006",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Not Enabled|1=Enabled",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 4A Multiplexer/Demultiplexer (MDM) 120 Volt On-Off Status"
+    },
+    "P4000007": {
+        "Name": "P4000007",
+        "Parent": "SPARTAN",
+        "Units": "DEG",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 2A - Beta Gimble Assembly (BGA) Position (degrees)"
+    },
+    "P4000008": {
+        "Name": "P4000008",
+        "Parent": "SPARTAN",
+        "Units": "DEG",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 4A - Beta Gimble Assembly (BGA) Position (degrees)"
+    },
+    "P6000001": {
+        "Name": "P6000001",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 4B - Drive Voltage"
+    },
+    "P6000002": {
+        "Name": "P6000002",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 4B - Drive Current"
+    },
+    "P6000003": {
+        "Name": "P6000003",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Not Enabled|1=Enabled",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 4B Multiplexer/Demultiplexer (MDM) 120 Volt On-Off Status"
+    },
+    "P6000004": {
+        "Name": "P6000004",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 2B - Drive Voltage"
+    },
+    "P6000005": {
+        "Name": "P6000005",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 2B - Drive Current"
+    },
+    "P6000006": {
+        "Name": "P6000006",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Not Enabled|1=Enabled",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 2B Multiplexer/Demultiplexer (MDM) 120 Volt On-Off Status"
+    },
+    "P6000007": {
+        "Name": "P6000007",
+        "Parent": "SPARTAN",
+        "Units": "DEG",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 4B - Beta Gimble Assembly (BGA) Position (degrees)"
+    },
+    "P6000008": {
+        "Name": "P6000008",
+        "Parent": "SPARTAN",
+        "Units": "DEG",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 2B - Beta Gimble Assembly (BGA) Position (degrees)"
+    },
+    "RUSSEG000001": {
+        "Name": "RUSSEG000001",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "1=Crew Rescue|2=Survival|3=Reboost|4=Proximity Operations|5=EVA|6=Microgravity|7=Standard",
+        "Description": "Russian Segment Station Mode - Service Module (SM)"
+    },
+    "RUSSEG000002": {
+        "Name": "RUSSEG000002",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM KURS Equipment Set1 Operating-RS",
+        "Description": "First Kurs Equipment Kit Operating"
+    },
+    "RUSSEG000003": {
+        "Name": "RUSSEG000003",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM KURS Equipment Set2 Operating-RS",
+        "Description": "Second Kurs Equipment Kit Operating"
+    },
+    "RUSSEG000004": {
+        "Name": "RUSSEG000004",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undeterminated State|1=SM KURS P1, P2 Failure-RS",
+        "Description": "Service Module Kurs P1, P2 Failure - Russian Segment"
+    },
+    "RUSSEG000005": {
+        "Name": "RUSSEG000005",
+        "Parent": "VVO",
+        "Units": "M",
+        "Type": "{0:d0}",
+        "Description": "Distance from Service Module (SM) Kurs (Range)"
+    },
+    "RUSSEG000006": {
+        "Name": "RUSSEG000006",
+        "Parent": "VVO",
+        "Units": "M/S",
+        "Type": "{0:f2}",
+        "Description": "Rate from Service Module (SM) Kurs (Range Rate)"
+    },
+    "RUSSEG000007": {
+        "Name": "RUSSEG000007",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM KURS-P Test Mode-RS",
+        "Description": "Service Module (SM) Kurs-P Test Mode - Russian Segment"
+    },
+    "RUSSEG000008": {
+        "Name": "RUSSEG000008",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM KURS-P Capture Signal -RS",
+        "Description": "Service Module (SM) Kurs-P \"Capture\" Signal Availability"
+    },
+    "RUSSEG000009": {
+        "Name": "RUSSEG000009",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM KURS-P Target Acquisition Signal-RS",
+        "Description": "Service Module (SM) Kurs-P Target Acquisition Signal - Russian Segment"
+    },
+    "RUSSEG000010": {
+        "Name": "RUSSEG000010",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM KURS-P Functional Mode Signal-RS",
+        "Description": "Service Module (SM) Kurs-P Functional Mode Signal - Russian Segment"
+    },
+    "RUSSEG000011": {
+        "Name": "RUSSEG000011",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM KURS-P In Standby Mode-RS",
+        "Description": "Service Module (SM) Kurs-P Standby Mode - Russian Segment"
+    },
+    "RUSSEG000012": {
+        "Name": "RUSSEG000012",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM Docking Flag-RS",
+        "Description": "Service Module Docking Flag"
+    },
+    "RUSSEG000013": {
+        "Name": "RUSSEG000013",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM Docking Port Engaged from Xfer Side-RS",
+        "Description": "Service Module (SM) Forward Docking Port Engaged"
+    },
+    "RUSSEG000014": {
+        "Name": "RUSSEG000014",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM Docking Port Engaged from Instr Compartment Side-RS",
+        "Description": "Service Module (SM) Aft Docking Port Engaged"
+    },
+    "RUSSEG000015": {
+        "Name": "RUSSEG000015",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM Docking Port Engaged Below (along SM -Y Axis)-RS",
+        "Description": "Service Module (SM) Nadir (Down-looking) Docking Port Engaged - Along Y-Axis"
+    },
+    "RUSSEG000016": {
+        "Name": "RUSSEG000016",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=FGB Bottom Docking Port Engaged (along SM -Y Axis)-RS",
+        "Description": "Functional Cargo Block (FGB) Nadir (Down-looking) Docking Port Engaged - Along Y-Axis"
+    },
+    "RUSSEG000017": {
+        "Name": "RUSSEG000017",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM Bottom UDM Docking Port Engaged (along SM -Y Axis)-RS",
+        "Description": "Service Module (SM) Nadir (Down-looking) Universal Docking Module (UDM) Docking Port Engaged - Along Y-Axis"
+    },
+    "RUSSEG000018": {
+        "Name": "RUSSEG000018",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=MRM1 Docking Port Engaged-RS",
+        "Description": "Mini Research Module (MRM) 1 Docking Port Engaged - Russian Segment"
+    },
+    "RUSSEG000019": {
+        "Name": "RUSSEG000019",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=MRM2 Docking Port Engaged-RS",
+        "Description": "Mini Research Module (MRM) 2 Docking Port Engaged - Russian Segment"
+    },
+    "RUSSEG000020": {
+        "Name": "RUSSEG000020",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=Docked Vehicle Hooks Closed-RS",
+        "Description": "Service Module - Docked Vehicle Hooks Closed - Russian Segment"
+    },
+    "RUSSEG000021": {
+        "Name": "RUSSEG000021",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Inertial Attitude|1=LVLH SM|2=Solar Orientation|3=Current LVLH|4=Current Inertial Attitude|5=Damping|6=TEA|7=X-POP",
+        "Description": "Service Module - Russian Guidance, Navigation, and Control - Active Attitude Mode - Russian Segment"
+    },
+    "RUSSEG000022": {
+        "Name": "RUSSEG000022",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM SUDN Controls the Motion (RS master)-RS",
+        "Description": "Service Module - Russian Guidance, Navigation, and Control - Motion Control - Russian Segment"
+    },
+    "RUSSEG000023": {
+        "Name": "RUSSEG000023",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Undetermined State|1=SM SUDN Prepared to Free Drift Mode Transition-RS",
+        "Description": "Service Module - Russian Guidance, Navigation, and Control - Prepared to Free Drift Mode Transition - Russian Segment"
+    },
+    "RUSSEG000024": {
+        "Name": "RUSSEG000024",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=Pre-Starting Procedure Or Thruster Operation Readiness|1=Thruster Operation Mode is Terminated",
+        "Description": "Service Module - Russian Guidance, Navigation, and Control - Thruster Operation Mode Terminated - Russian Segment"
+    },
+    "RUSSEG000025": {
+        "Name": "RUSSEG000025",
+        "Parent": "ADCO/VVO",
+        "Units": "STATE",
+        "Type": "0=0 - Reserv|1=1 - Thrusters|2=2 - Gyrodines|3=3 - Gyrodines with Desaturation on American Method|4=4 - Gyrodines with Desaturation on Russian Method|5=5 - Translational Thrusters Operating|6=6 - Thrusters help CMG (desaturate CMG)|7=7 - Free Drift Mode",
+        "Description": "Service Module - Russian Guidance, Navigation, and Control - Current Dynamic Mode - Russian Segment"
+    },
+    "S0000001": {
+        "Name": "S0000001",
+        "Parent": "SPARTAN/VVO",
+        "Units": "DEG",
+        "Type": "{0:f1}",
+        "Description": "Starboard Thermal Radiator Rotating Joint (TRRJ) Position (degrees)"
+    },
+    "S0000002": {
+        "Name": "S0000002",
+        "Parent": "SPARTAN/VVO",
+        "Units": "DEG",
+        "Type": "{0:f1}",
+        "Description": "Port Thermal Radiator Rotating Joint (TRRJ) Position (degrees)"
+    },
+    "S0000003": {
+        "Name": "S0000003",
+        "Parent": "SPARTAN/VVO",
+        "Units": "DEG",
+        "Type": "{0:f2}",
+        "Description": "Solar Alpha Rotary Joint (SARJ) Starboard Joint Angle Position (degrees)"
+    },
+    "S0000004": {
+        "Name": "S0000004",
+        "Parent": "SPARTAN/VVO",
+        "Units": "DEG",
+        "Type": "{0:f2}",
+        "Description": "Solar Alpha Rotary Joint (SARJ) Port Joint Angle Position (degrees)"
+    },
+    "S0000005": {
+        "Name": "S0000005",
+        "Parent": "VVO",
+        "Units": "DEG",
+        "Type": "{0:f2}",
+        "Description": "Solar Alpha Rotary Joint (SARJ) Port Joint Angle Commanded Position (degrees)"
+    },
+    "S0000006": {
+        "Name": "S0000006",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "1=STANDBY|2=RESTART|3=CHECKOUT|4=DIRECTED_POSITION|5=AUTOTRACK|6=BLIND|7=SHUTDOWN|8=SWITCHOVER",
+        "Description": "External Thermal Control System (ETCS) - Thermal Radiator Rotating Joint (TRRJ) - Loop B - Software mode"
+    },
+    "S0000007": {
+        "Name": "S0000007",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "1=STANDBY|2=RESTART|3=CHECKOUT|4=DIRECTED_POSITION|5=AUTOTRACK|6=BLIND|7=SHUTDOWN|8=SWITCHOVER",
+        "Description": "External Thermal Control System (ETCS) - Thermal Radiator Rotating Joint (TRRJ) - Loop A - Software mode"
+    },
+    "S0000008": {
+        "Name": "S0000008",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "1=STANDBY|2=RESTART|3=CHECKOUT|4=DIRECTED_POSITION|5=AUTOTRACK|6=BLIND|7=SHUTDOWN|8=SWITCHOVER",
+        "Description": "External Primary Solar Alpha Rotary Joint (SARJ) Port Mode"
+    },
+    "S0000009": {
+        "Name": "S0000009",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "1=STANDBY|2=RESTART|3=CHECKOUT|4=DIRECTED_POSITION|5=AUTOTRACK|6=BLIND|7=SHUTDOWN|8=SWITCHOVER",
+        "Description": "External Primary Solar Alpha Rotary Joint (SARJ) Starboard Mode"
+    },
+    "S0000010": {
+        "Name": "S0000010",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "External Control Zone Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "S0000011": {
+        "Name": "S0000011",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "S0 Truss Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "S0000012": {
+        "Name": "S0000012",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "External Control Zone Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "S0000013": {
+        "Name": "S0000013",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "S0 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "S1000001": {
+        "Name": "S1000001",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Loop A Pump Flowrate (kg/hr)"
+    },
+    "S1000002": {
+        "Name": "S1000002",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Loop A PM Out Press (kPa)"
+    },
+    "S1000003": {
+        "Name": "S1000003",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Loop A PM Out Temp (deg C)"
+    },
+    "S1000004": {
+        "Name": "S1000004",
+        "Parent": "CATO",
+        "Units": "DEG",
+        "Type": "{0:f2}",
+        "Description": "S-Band Radio Frequency Group (RFG 1) Azimuth Gimbal Position"
+    },
+    "S1000005": {
+        "Name": "S1000005",
+        "Parent": "CATO/VVO",
+        "Units": "DEG",
+        "Type": "{0:f2}",
+        "Description": "S-Band Radio Frequency Group (RFG 1) Elevation Gimbal Position"
+    },
+    "S1000006": {
+        "Name": "S1000006",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Starboard Thermal Radiator (STR) Multiplexer/Demultiplexer (MDM) on-off status"
+    },
+    "S1000007": {
+        "Name": "S1000007",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "S1 Truss Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "S1000008": {
+        "Name": "S1000008",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "S1 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "S1000009": {
+        "Name": "S1000009",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "S-Band Radio Frequency Group (RFG 1), on-off status"
+    },
+    "S3000001": {
+        "Name": "S3000001",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "S3 Truss Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "S3000002": {
+        "Name": "S3000002",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "S3 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "S4000001": {
+        "Name": "S4000001",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 1A - Drive Voltage"
+    },
+    "S4000002": {
+        "Name": "S4000002",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 1A - Drive Current"
+    },
+    "S4000003": {
+        "Name": "S4000003",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Not Enabled|1=Enabled",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 1A Multiplexer/Demultiplexer (MDM) 120 Volt On-Off Status"
+    },
+    "S4000004": {
+        "Name": "S4000004",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 3B - Drive Voltage"
+    },
+    "S4000005": {
+        "Name": "S4000005",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 3B - Drive Current"
+    },
+    "S4000006": {
+        "Name": "S4000006",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Not Enabled|1=Enabled",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 3A Multiplexer/Demultiplexer (MDM) 120 Volt On-Off Status"
+    },
+    "S4000007": {
+        "Name": "S4000007",
+        "Parent": "SPARTAN",
+        "Units": "DEG",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 1A - Beta Gimble Assembly (BGA) Position (degrees)"
+    },
+    "S4000008": {
+        "Name": "S4000008",
+        "Parent": "SPARTAN",
+        "Units": "DEG",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 3A - Beta Gimble Assembly (BGA) Position (degrees)"
+    },
+    "S6000001": {
+        "Name": "S6000001",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 3B - Drive Voltage"
+    },
+    "S6000002": {
+        "Name": "S6000002",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 3B - Drive Current"
+    },
+    "S6000003": {
+        "Name": "S6000003",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Not Enabled|1=Enabled",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 3B Multiplexer/Demultiplexer (MDM) 120 Volt On-Off Status"
+    },
+    "S6000004": {
+        "Name": "S6000004",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 1B - Drive Voltage"
+    },
+    "S6000005": {
+        "Name": "S6000005",
+        "Parent": "SPARTAN",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 1B - Drive Current"
+    },
+    "S6000006": {
+        "Name": "S6000006",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Not Enabled|1=Enabled",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 1B Multiplexer/Demultiplexer (MDM) 120 Volt On-Off Status"
+    },
+    "S6000007": {
+        "Name": "S6000007",
+        "Parent": "SPARTAN",
+        "Units": "DEG",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 3B - Beta Gimble Assembly (BGA) Position (degrees)"
+    },
+    "S6000008": {
+        "Name": "S6000008",
+        "Parent": "SPARTAN",
+        "Units": "DEG",
+        "Type": "{0:f1}",
+        "Description": "Photovolatic Control Unit (PVCU) - Solar Array - 1B - Beta Gimble Assembly (BGA) Position (degrees)"
+    },
+    "TIME_000001": {
+        "Name": "TIME_000001",
+        "Parent": "STATE",
+        "Units": "MS",
+        "Type": "%mT",
+        "Description": "Greenwich Mean Time (GMT)"
+    },
+    "TIME_000002": {
+        "Name": "TIME_000002",
+        "Parent": "STATE",
+        "Units": "YR",
+        "Type": "{0:d0}",
+        "Description": "Year"
+    },
+    "USLAB000001": {
+        "Name": "USLAB000001",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=NOT IN USE|1=IN USE",
+        "Description": "Control Moment Gyroscope (CMG)-1 On-Line"
+    },
+    "USLAB000002": {
+        "Name": "USLAB000002",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=NOT IN USE|1=IN USE",
+        "Description": "Control Moment Gyroscope (CMG)-2 On-Line"
+    },
+    "USLAB000003": {
+        "Name": "USLAB000003",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=NOT IN USE|1=IN USE",
+        "Description": "Control Moment Gyroscope (CMG)-3 On-Line"
+    },
+    "USLAB000004": {
+        "Name": "USLAB000004",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=NOT IN USE|1=IN USE",
+        "Description": "Control Moment Gyroscope (CMG)-4 On-Line"
+    },
+    "USLAB000005": {
+        "Name": "USLAB000005",
+        "Parent": "ADCO",
+        "Units": "ND",
+        "Type": "{0:d0}",
+        "Description": "Number of Control Moment Gyroscope (CMG)s Online"
+    },
+    "USLAB000006": {
+        "Name": "USLAB000006",
+        "Parent": "ADCO",
+        "Units": "FT-LB",
+        "Type": "{0:f4}",
+        "Description": "Control Moment Gyroscope (CMG) Control Torque - Roll (N-m)"
+    },
+    "USLAB000007": {
+        "Name": "USLAB000007",
+        "Parent": "ADCO",
+        "Units": "FT-LB",
+        "Type": "{0:f4}",
+        "Description": "Control Moment Gyroscope (CMG) Control Torque - Pitch (N-m)"
+    },
+    "USLAB000008": {
+        "Name": "USLAB000008",
+        "Parent": "ADCO",
+        "Units": "FT-LB",
+        "Type": "{0:f4}",
+        "Description": "Control Moment Gyroscope (CMG) Control Torque - Yaw (N-m)"
+    },
+    "USLAB000009": {
+        "Name": "USLAB000009",
+        "Parent": "ADCO",
+        "Units": "FT-LB-S",
+        "Type": "{0:d0}",
+        "Description": "Active Control Moment Gyroscope (CMG) Momentum (Nms)"
+    },
+    "USLAB000010": {
+        "Name": "USLAB000010",
+        "Parent": "ADCO/VVO",
+        "Units": "PCT",
+        "Type": "{0:f2}",
+        "Description": "Control Moment Gyroscope (CMG) Momentum Percentage (%)"
+    },
+    "USLAB000011": {
+        "Name": "USLAB000011",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=ENABLED|1=INHIBITED",
+        "Description": "Desaturation Request (Enabled/Inhibited)"
+    },
+    "USLAB000012": {
+        "Name": "USLAB000012",
+        "Parent": "ADCO/VVO",
+        "Units": "STATE",
+        "Type": "0=Default|1=WAIT|2=RESERVED|3=STANDBY|4=CMG ATTITUDE CONTROL|5=CMG/THRUSTER ASSIST ATTITUDE CONTROL|6=USER DATA GENERATION|7=FREEDRIFT",
+        "Description": "US Guidance, Navigation and Control (GNC) Mode"
+    },
+    "USLAB000013": {
+        "Name": "USLAB000013",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=NONE|1=GPS1|2=GPS2|3=Russian_Attitude|4=Ku_Band",
+        "Description": "US Attitude Source"
+    },
+    "USLAB000014": {
+        "Name": "USLAB000014",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=NONE|1=RGA1|2=RGA2|3=RUSSIAN",
+        "Description": "US Rate Source"
+    },
+    "USLAB000015": {
+        "Name": "USLAB000015",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=NO_SOURCE|1=Unused|2=Unused|3=RUSSIAN|4=GPS1_DETERMINISTIC|5=GPS2_DETERMINISTIC|6=GROUND",
+        "Description": "US State Vector Source"
+    },
+    "USLAB000016": {
+        "Name": "USLAB000016",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=ATTITUDE HOLD|1=TEA",
+        "Description": "Attitude Controller Type"
+    },
+    "USLAB000017": {
+        "Name": "USLAB000017",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=LVLH|1=Inertial|2=XPOP",
+        "Description": "Attitude Control Reference Frame"
+    },
+    "USLAB000018": {
+        "Name": "USLAB000018",
+        "Parent": "ADCO",
+        "Units": "ND",
+        "Type": "{0:f2}",
+        "Description": "US Current Local Vertical Local Horizontal (LVLH) Attitude Quaternion Component 0"
+    },
+    "USLAB000019": {
+        "Name": "USLAB000019",
+        "Parent": "ADCO",
+        "Units": "ND",
+        "Type": "{0:f2}",
+        "Description": "US Current Local Vertical Local Horizontal (LVLH) Attitude Quaternion Component 1"
+    },
+    "USLAB000020": {
+        "Name": "USLAB000020",
+        "Parent": "ADCO",
+        "Units": "ND",
+        "Type": "{0:f2}",
+        "Description": "US Current Local Vertical Local Horizontal (LVLH) Attitude Quaternion Component 2"
+    },
+    "USLAB000021": {
+        "Name": "USLAB000021",
+        "Parent": "ADCO",
+        "Units": "ND",
+        "Type": "{0:f2}",
+        "Description": "US Current Local Vertical Local Horizontal (LVLH) Attitude Quaternion Component 3"
+    },
+    "USLAB000022": {
+        "Name": "USLAB000022",
+        "Parent": "ADCO",
+        "Units": "RAD",
+        "Type": "{0:f2}",
+        "Description": "US Attitude Roll Error (deg)"
+    },
+    "USLAB000023": {
+        "Name": "USLAB000023",
+        "Parent": "ADCO",
+        "Units": "RAD",
+        "Type": "{0:f2}",
+        "Description": "US Attitude Pitch Error (deg)"
+    },
+    "USLAB000024": {
+        "Name": "USLAB000024",
+        "Parent": "ADCO",
+        "Units": "RAD",
+        "Type": "{0:f2}",
+        "Description": "US Attitude Yaw Error (deg)"
+    },
+    "USLAB000025": {
+        "Name": "USLAB000025",
+        "Parent": "ADCO",
+        "Units": "RAD/S",
+        "Type": "{0:f2}",
+        "Description": "US Inertial Attitude Rate X (deg/s)"
+    },
+    "USLAB000026": {
+        "Name": "USLAB000026",
+        "Parent": "ADCO",
+        "Units": "RAD/S",
+        "Type": "{0:f2}",
+        "Description": "US Inertial Attitude Rate Y (deg/s)"
+    },
+    "USLAB000027": {
+        "Name": "USLAB000027",
+        "Parent": "ADCO",
+        "Units": "RAD/S",
+        "Type": "{0:f2}",
+        "Description": "US Inertial Attitude Rate Z (deg/s)"
+    },
+    "USLAB000028": {
+        "Name": "USLAB000028",
+        "Parent": "ADCO",
+        "Units": "ND",
+        "Type": "{0:f6}",
+        "Description": "US Commanded Attitude Quaternion Component 0"
+    },
+    "USLAB000029": {
+        "Name": "USLAB000029",
+        "Parent": "ADCO",
+        "Units": "ND",
+        "Type": "{0:f6}",
+        "Description": "US Commanded Attitude Quaternion Component 1"
+    },
+    "USLAB000030": {
+        "Name": "USLAB000030",
+        "Parent": "ADCO",
+        "Units": "ND",
+        "Type": "{0:f6}",
+        "Description": "US Commanded Attitude Quaternion Component 2"
+    },
+    "USLAB000031": {
+        "Name": "USLAB000031",
+        "Parent": "ADCO",
+        "Units": "ND",
+        "Type": "{0:f6}",
+        "Description": "US Commanded Attitude Quaternion Component 3"
+    },
+    "USLAB000032": {
+        "Name": "USLAB000032",
+        "Parent": "ADCO/TOPO",
+        "Units": "FT",
+        "Type": "{0:f9}",
+        "Description": "US Guidance, Navigation and Control (GNC) J2000 Propagated State Vector - X (km)"
+    },
+    "USLAB000033": {
+        "Name": "USLAB000033",
+        "Parent": "ADCO/TOPO",
+        "Units": "FT",
+        "Type": "{0:f9}",
+        "Description": "US Guidance, Navigation and Control (GNC) J2000 Propagated State Vector - Y (km)"
+    },
+    "USLAB000034": {
+        "Name": "USLAB000034",
+        "Parent": "ADCO/TOPO",
+        "Units": "FT",
+        "Type": "{0:f9}",
+        "Description": "US Guidance, Navigation and Control (GNC) J2000 Propagated State Vector - Z (km)"
+    },
+    "USLAB000035": {
+        "Name": "USLAB000035",
+        "Parent": "ADCO/TOPO",
+        "Units": "FT/S",
+        "Type": "{0:f9}",
+        "Description": "US Guidance, Navigation and Control (GNC) J2000 Propagated State Vector - X (m/s)"
+    },
+    "USLAB000036": {
+        "Name": "USLAB000036",
+        "Parent": "ADCO/TOPO",
+        "Units": "FT/S",
+        "Type": "{0:f9}",
+        "Description": "US Guidance, Navigation and Control (GNC) J2000 Propagated State Vector - Y (m/s)"
+    },
+    "USLAB000037": {
+        "Name": "USLAB000037",
+        "Parent": "ADCO/TOPO",
+        "Units": "FT/S",
+        "Type": "{0:f9}",
+        "Description": "US Guidance, Navigation and Control (GNC) J2000 Propagated State Vector - Z (m/s)"
+    },
+    "USLAB000038": {
+        "Name": "USLAB000038",
+        "Parent": "ADCO",
+        "Units": "FT-LB-S",
+        "Type": "{0:d0}",
+        "Description": "Active Control Moment Gyroscope (CMG) Momentum Capacity (Nms)"
+    },
+    "USLAB000039": {
+        "Name": "USLAB000039",
+        "Parent": "ADCO",
+        "Units": "KG",
+        "Type": "{0:d0}",
+        "Description": "ISS Total Mass (kg)"
+    },
+    "USLAB000040": {
+        "Name": "USLAB000040",
+        "Parent": "ADCO",
+        "Units": "DEG",
+        "Type": "{0:f2}",
+        "Description": "Solar Beta Angle (degrees)"
+    },
+    "USLAB000041": {
+        "Name": "USLAB000041",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=FALSE|1=TRUE",
+        "Description": "Loss of CMG Attitude Control (LOAC) Caution Message In Alarm"
+    },
+    "USLAB000042": {
+        "Name": "USLAB000042",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=FALSE|1=TRUE",
+        "Description": "Loss of ISS Attitude Control (LOAC) Caution Message In Alarm"
+    },
+    "USLAB000043": {
+        "Name": "USLAB000043",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=DOING POSITION FIXES|1=SV TIMING|2=APPROXIMATE TIMING|3=GPS TIME|4=NEED INITIALIZATION|5=GDOP NEEDED|6=BAD TIMING|7=NO USABLE SV|8=ONLY 1 USABLE SVs|9=ONLY 2 USABLE SVs|10=ONLY 3 USABLE SVs|11=BAD INTEGRITY|12=NO VEL AVAIL|13=UNUSABLE FIX",
+        "Description": "Global Positioning System (GPS-1) Ops Status"
+    },
+    "USLAB000044": {
+        "Name": "USLAB000044",
+        "Parent": "ADCO",
+        "Units": "STATE",
+        "Type": "0=DOING POSITION FIXES|1=SV TIMING|2=APPROXIMATE TIMING|3=GPS TIME|4=NEED INITIALIZATION|5=GDOP NEEDED|6=BAD TIMING|7=NO USABLE SV|8=ONLY 1 USABLE SVs|9=ONLY 2 USABLE SVs|10=ONLY 3 USABLE SVs|11=BAD INTEGRITY|12=NO VEL AVAIL|13=UNUSABLE FIX",
+        "Description": "Global Positioning System (GPS-2) Ops Status"
+    },
+    "USLAB000045": {
+        "Name": "USLAB000045",
+        "Parent": "ADCO",
+        "Units": "DEGF",
+        "Type": "{0:f1}",
+        "Description": "Spin Motor Spin Bearing Temperature - Control Moment Gyroscope (CMG) 1 (deg C)"
+    },
+    "USLAB000046": {
+        "Name": "USLAB000046",
+        "Parent": "ADCO",
+        "Units": "DEGF",
+        "Type": "{0:f1}",
+        "Description": "Spin Motor Spin Bearing Temperature - Control Moment Gyroscope (CMG) 2 (deg C)"
+    },
+    "USLAB000047": {
+        "Name": "USLAB000047",
+        "Parent": "ADCO",
+        "Units": "DEGF",
+        "Type": "{0:f1}",
+        "Description": "Spin Motor Spin Bearing Temperature - Control Moment Gyroscope (CMG) 3 (deg C)"
+    },
+    "USLAB000048": {
+        "Name": "USLAB000048",
+        "Parent": "ADCO",
+        "Units": "DEGF",
+        "Type": "{0:f1}",
+        "Description": "Spin Motor Spin Bearing Temperature - Control Moment Gyroscope (CMG) 4 (deg C)"
+    },
+    "USLAB000049": {
+        "Name": "USLAB000049",
+        "Parent": "ADCO",
+        "Units": "DEGF",
+        "Type": "{0:f1}",
+        "Description": "Hall Resolver Spin Bearing Temperature - Control Moment Gyroscope (CMG) 1 (deg C)"
+    },
+    "USLAB000050": {
+        "Name": "USLAB000050",
+        "Parent": "ADCO",
+        "Units": "DEGF",
+        "Type": "{0:f1}",
+        "Description": "Hall Resolver Spin Bearing Temperature - Control Moment Gyroscope (CMG) 2 (deg C)"
+    },
+    "USLAB000051": {
+        "Name": "USLAB000051",
+        "Parent": "ADCO",
+        "Units": "DEGF",
+        "Type": "{0:f1}",
+        "Description": "Hall Resolver Spin Bearing Temperature - Control Moment Gyroscope (CMG) 3 (deg C)"
+    },
+    "USLAB000052": {
+        "Name": "USLAB000052",
+        "Parent": "ADCO",
+        "Units": "DEGF",
+        "Type": "{0:f1}",
+        "Description": "Hall Resolver Spin Bearing Temperature - Control Moment Gyroscope (CMG) 4 (deg C)"
+    },
+    "USLAB000053": {
+        "Name": "USLAB000053",
+        "Parent": "ETHOS",
+        "Units": "PSIA",
+        "Type": "{0:f2}",
+        "Description": "Lab ppO2"
+    },
+    "USLAB000054": {
+        "Name": "USLAB000054",
+        "Parent": "ETHOS",
+        "Units": "PSIA",
+        "Type": "{0:f2}",
+        "Description": "Lab ppN2"
+    },
+    "USLAB000055": {
+        "Name": "USLAB000055",
+        "Parent": "ETHOS",
+        "Units": "PSIA",
+        "Type": "{0:f2}",
+        "Description": "Lab ppCO2"
+    },
+    "USLAB000056": {
+        "Name": "USLAB000056",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Coolant water quantity, LT (Lab)"
+    },
+    "USLAB000057": {
+        "Name": "USLAB000057",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Coolant water quantity, MT (Lab)"
+    },
+    "USLAB000058": {
+        "Name": "USLAB000058",
+        "Parent": "ETHOS",
+        "Units": "PSI",
+        "Type": "{0:f2}",
+        "Description": "Cabin pressure"
+    },
+    "USLAB000059": {
+        "Name": "USLAB000059",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Cabin temperature"
+    },
+    "USLAB000060": {
+        "Name": "USLAB000060",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f1}",
+        "Description": "Avionics Cooling Fluid Temp (Lab)"
+    },
+    "USLAB000061": {
+        "Name": "USLAB000061",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "{0:f2}",
+        "Description": "Air Cooling Fluid Temp (Lab)"
+    },
+    "USLAB000062": {
+        "Name": "USLAB000062",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "0=FAIL|1=OPEN|2=CLSD|3=TRNS",
+        "Description": "Vacuum Resource System Valve Position"
+    },
+    "USLAB000063": {
+        "Name": "USLAB000063",
+        "Parent": "ETHOS",
+        "Units": "CNT",
+        "Type": "0=FAIL|1=OPEN|2=CLSD|3=TRNS",
+        "Description": "Vacuum Exhaust System Valve Position"
+    },
+    "USLAB000064": {
+        "Name": "USLAB000064",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST",
+        "Description": "Lab Port Air Conditioner State"
+    },
+    "USLAB000065": {
+        "Name": "USLAB000065",
+        "Parent": "ETHOS",
+        "Units": "STATE",
+        "Type": "0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST",
+        "Description": "Lab Starboard Air Conditioner State"
+    },
+    "USLAB000066": {
+        "Name": "USLAB000066",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Command and Control (C&C) Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "USLAB000067": {
+        "Name": "USLAB000067",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Command and Control (C&C) Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "USLAB000068": {
+        "Name": "USLAB000068",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Command and Control (C&C) Multiplexer/Demultiplexer (MDM) 3 on-off status"
+    },
+    "USLAB000069": {
+        "Name": "USLAB000069",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Internal Control Zone Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "USLAB000070": {
+        "Name": "USLAB000070",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Internal Control Zone Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "USLAB000071": {
+        "Name": "USLAB000071",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Payload (PL) Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "USLAB000072": {
+        "Name": "USLAB000072",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Payload (PL) Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "USLAB000073": {
+        "Name": "USLAB000073",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Guidance, Navigation and Control (GNC) Multiplexer/Demultiplexer 1 on-off status"
+    },
+    "USLAB000074": {
+        "Name": "USLAB000074",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Guidance, Navigation and Control (GNC) Multiplexer/Demultiplexer 2 on-off status"
+    },
+    "USLAB000075": {
+        "Name": "USLAB000075",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Power Mangement Controller Unit (PMCU) 1 Multiplexer/Demultiplexer 1 on-off status"
+    },
+    "USLAB000076": {
+        "Name": "USLAB000076",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Power Mangement Controller Unit (PMCU) 2 Multiplexer/Demultiplexer 1 on-off status"
+    },
+    "USLAB000077": {
+        "Name": "USLAB000077",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "US Lab Multiplexer/Demultiplexer (MDM) 1 on-off status"
+    },
+    "USLAB000078": {
+        "Name": "USLAB000078",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "US Lab Multiplexer/Demultiplexer (MDM) 2 on-off status"
+    },
+    "USLAB000079": {
+        "Name": "USLAB000079",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "US Lab Multiplexer/Demultiplexer (MDM) 3 on-off status"
+    },
+    "USLAB000080": {
+        "Name": "USLAB000080",
+        "Parent": "CDH",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Permanent Multipurpose Module - System Power voltage status"
+    },
+    "USLAB000081": {
+        "Name": "USLAB000081",
+        "Parent": "VVO",
+        "Units": "STATE",
+        "Type": "0=FALSE|1=TRUE",
+        "Description": "Attitude Maneuver In Progress status"
+    },
+    "USLAB000082": {
+        "Name": "USLAB000082",
+        "Parent": "ODIN",
+        "Units": "INTEGR",
+        "Type": "{0:d0}",
+        "Description": "Standard Command Counter - Count of standard commands received by the ISS Command and Control Computer"
+    },
+    "USLAB000083": {
+        "Name": "USLAB000083",
+        "Parent": "ODIN",
+        "Units": "INTEGR",
+        "Type": "{0:d0}",
+        "Description": "Data Load Command Counter - Count of data load commands received by the ISS Command and Control Computer"
+    },
+    "USLAB000084": {
+        "Name": "USLAB000084",
+        "Parent": "ODIN",
+        "Units": "S",
+        "Type": "%sT",
+        "Description": "ISS Command and Control Multiplexer/Demultiplexer Onboard Time (course)"
+    },
+    "USLAB000085": {
+        "Name": "USLAB000085",
+        "Parent": "ODIN",
+        "Units": "S",
+        "Type": "{0:f7}",
+        "Description": "ISS Command and Control Multiplexer/Demultiplexer Onboard Time (fine)"
+    },
+    "USLAB000086": {
+        "Name": "USLAB000086",
+        "Parent": "ODIN/VVO",
+        "Units": "STATE",
+        "Type": "1=Standard|2=Microgravity|4=Reboost|8=Proximity_Ops|16=External_Ops|32=Survival|64=ASCR|127=all_modes",
+        "Description": "ISS Station Mode"
+    },
+    "USLAB000087": {
+        "Name": "USLAB000087",
+        "Parent": "ODIN",
+        "Units": "INTEGR",
+        "Type": "{0:d0}",
+        "Description": "# Laptops active and connected to the Primary Command and Control (C&C) Multiplexer/Demultiplexer (MDM)"
+    },
+    "USLAB000088": {
+        "Name": "USLAB000088",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=INACTIVE|1=ACTIVE",
+        "Description": "Ku-Band Video Downlink Channel 1 Activity"
+    },
+    "USLAB000089": {
+        "Name": "USLAB000089",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=INACTIVE|1=ACTIVE",
+        "Description": "Ku-Band Video Downlink Channel 2 Activity"
+    },
+    "USLAB000090": {
+        "Name": "USLAB000090",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=INACTIVE|1=ACTIVE",
+        "Description": "Ku-Band Video Downlink Channel 3 Activity"
+    },
+    "USLAB000091": {
+        "Name": "USLAB000091",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=INACTIVE|1=ACTIVE",
+        "Description": "Ku-Band Video Downlink Channel 4 Activity"
+    },
+    "USLAB000092": {
+        "Name": "USLAB000092",
+        "Parent": "CATO",
+        "Units": "INTEGR",
+        "Type": "1=String 1|2=String 2",
+        "Description": "Active String of S-Band"
+    },
+    "USLAB000093": {
+        "Name": "USLAB000093",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=Backup|1=Active",
+        "Description": "Internal Audio Controller (IAC) - IAC-1 Active/Backup Indication"
+    },
+    "USLAB000094": {
+        "Name": "USLAB000094",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=Backup|1=Active",
+        "Description": "Internal Audio Controller (IAC) - IAC-2 Active/Backup Indication"
+    },
+    "USLAB000095": {
+        "Name": "USLAB000095",
+        "Parent": "CATO",
+        "Units": "INTEGR",
+        "Type": "0= -|1=S3AFT|2=S1UPOB|3=SCU1 Mux|4=S1LOOB|5=JPM a|6=JPM b|7=S1UPIB|8=S1LOIB|9=COL 1|10=COL 2|11=P1UPIB|12=SCU2 Mux|13=NOD3S|14=P1LOIB|15=SCU1 Test|16=WETA112|17=ORB1|18=ORB2|19=P1LOOB|20=SCU2 Test|21=P3AFT|22=Payload Rack|23=VTR1|24=VTR2|25=NOD2LO|26=WETA115|28=LAB S|31=POA PL3|32=POA|33=SPDMS1|34=SPDMS2|35=MBS CLPA|36=SPDMLEE|37=MAST|40=BLEE|43=BELB|48=TELB|50=MSS PL3|51=TLEE|52=Lab AVU1|53=Lab AVU2|54=Cup AVU1|55=Cup AVU2|56=OTCM1|57=BODY1|58=OTCM2|59=BODY2|60=SSRMS PL1|61=SSRMS PL2|62=SSRMS PL3|63=MSS PL1|64=MSS PL2|65=LAB1D3|66=LAB1P2|67=LAB1P4|68=LABCAM|69=LAB1O5|70=LAB1O4|71=LAB1O3|72=LAB1O2|73=LAB1O1|74=LAB1S1|75=LAB1S2|76=LAB1S3|77=A/L CAM|78=LAB1S4|79=N1 CAM|80=N3 CAM",
+        "Description": "Video Source Routed to Downlink 1"
+    },
+    "USLAB000096": {
+        "Name": "USLAB000096",
+        "Parent": "CATO",
+        "Units": "INTEGR",
+        "Type": "0= -|1=S3AFT|2=S1UPOB|3=SCU1 Mux|4=S1LOOB|5=JPM a|6=JPM b|7=S1UPIB|8=S1LOIB|9=COL 1|10=COL 2|11=P1UPIB|12=SCU2 Mux|13=NOD3S|14=P1LOIB|15=SCU1 Test|16=WETA112|17=ORB1|18=ORB2|19=P1LOOB|20=SCU2 Test|21=P3AFT|22=Payload Rack|23=VTR1|24=VTR2|25=NOD2LO|26=WETA115|28=LAB S|31=POA PL3|32=POA|33=SPDMS1|34=SPDMS2|35=MBS CLPA|36=SPDMLEE|37=MAST|40=BLEE|43=BELB|48=TELB|50=MSS PL3|51=TLEE|52=Lab AVU1|53=Lab AVU2|54=Cup AVU1|55=Cup AVU2|56=OTCM1|57=BODY1|58=OTCM2|59=BODY2|60=SSRMS PL1|61=SSRMS PL2|62=SSRMS PL3|63=MSS PL1|64=MSS PL2|65=LAB1D3|66=LAB1P2|67=LAB1P4|68=LABCAM|69=LAB1O5|70=LAB1O4|71=LAB1O3|72=LAB1O2|73=LAB1O1|74=LAB1S1|75=LAB1S2|76=LAB1S3|77=A/L CAM|78=LAB1S4|79=N1 CAM|80=N3 CAM",
+        "Description": "Video Source Routed to Downlink 2"
+    },
+    "USLAB000097": {
+        "Name": "USLAB000097",
+        "Parent": "CATO",
+        "Units": "INTEGR",
+        "Type": "0= -|1=S3AFT|2=S1UPOB|3=SCU1 Mux|4=S1LOOB|5=JPM a|6=JPM b|7=S1UPIB|8=S1LOIB|9=COL 1|10=COL 2|11=P1UPIB|12=SCU2 Mux|13=NOD3S|14=P1LOIB|15=SCU1 Test|16=WETA112|17=ORB1|18=ORB2|19=P1LOOB|20=SCU2 Test|21=P3AFT|22=Payload Rack|23=VTR1|24=VTR2|25=NOD2LO|26=WETA115|28=LAB S|31=POA PL3|32=POA|33=SPDMS1|34=SPDMS2|35=MBS CLPA|36=SPDMLEE|37=MAST|40=BLEE|43=BELB|48=TELB|50=MSS PL3|51=TLEE|52=Lab AVU1|53=Lab AVU2|54=Cup AVU1|55=Cup AVU2|56=OTCM1|57=BODY1|58=OTCM2|59=BODY2|60=SSRMS PL1|61=SSRMS PL2|62=SSRMS PL3|63=MSS PL1|64=MSS PL2|65=LAB1D3|66=LAB1P2|67=LAB1P4|68=LABCAM|69=LAB1O5|70=LAB1O4|71=LAB1O3|72=LAB1O2|73=LAB1O1|74=LAB1S1|75=LAB1S2|76=LAB1S3|77=A/L CAM|78=LAB1S4|79=N1 CAM|80=N3 CAM",
+        "Description": "Video Source Routed to Downlink 3"
+    },
+    "USLAB000098": {
+        "Name": "USLAB000098",
+        "Parent": "CATO",
+        "Units": "INTEGR",
+        "Type": "0= -|1=S3AFT|2=S1UPOB|3=SCU1 Mux|4=S1LOOB|5=JPM a|6=JPM b|7=S1UPIB|8=S1LOIB|9=COL 1|10=COL 2|11=P1UPIB|12=SCU2 Mux|13=NOD3S|14=P1LOIB|15=SCU1 Test|16=WETA112|17=ORB1|18=ORB2|19=P1LOOB|20=SCU2 Test|21=P3AFT|22=Payload Rack|23=VTR1|24=VTR2|25=NOD2LO|26=WETA115|28=LAB S|31=POA PL3|32=POA|33=SPDMS1|34=SPDMS2|35=MBS CLPA|36=SPDMLEE|37=MAST|40=BLEE|43=BELB|48=TELB|50=MSS PL3|51=TLEE|52=Lab AVU1|53=Lab AVU2|54=Cup AVU1|55=Cup AVU2|56=OTCM1|57=BODY1|58=OTCM2|59=BODY2|60=SSRMS PL1|61=SSRMS PL2|62=SSRMS PL3|63=MSS PL1|64=MSS PL2|65=LAB1D3|66=LAB1P2|67=LAB1P4|68=LABCAM|69=LAB1O5|70=LAB1O4|71=LAB1O3|72=LAB1O2|73=LAB1O1|74=LAB1S1|75=LAB1S2|76=LAB1S3|77=A/L CAM|78=LAB1S4|79=N1 CAM|80=N3 CAM",
+        "Description": "Video Source Routed to Downlink 4"
+    },
+    "USLAB000099": {
+        "Name": "USLAB000099",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Space-To-Space Radio (UHF) 1 Power"
+    },
+    "USLAB000100": {
+        "Name": "USLAB000100",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=Off-Ok|1=Not-Off Ok|3=Not-Off Failed",
+        "Description": "Space-To-Space Radio (UHF) 2 Power"
+    },
+    "USLAB000101": {
+        "Name": "USLAB000101",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=Frame Sync unlocked|1=Frame Sync locked",
+        "Description": "Space-To-Space Radio Frame Sync Lock"
+    },
+    "USLAB000102": {
+        "Name": "USLAB000102",
+        "Parent": "TOPO",
+        "Units": "S",
+        "Type": "%sT",
+        "Description": "State vector time tag"
+    },
+    "Z1000001": {
+        "Name": "Z1000001",
+        "Parent": "ADCO",
+        "Units": "G",
+        "Type": "{0:f2}",
+        "Description": "Control Moment Gyroscope (CMG)-1 Vibration (g)"
+    },
+    "Z1000002": {
+        "Name": "Z1000002",
+        "Parent": "ADCO",
+        "Units": "G",
+        "Type": "{0:f2}",
+        "Description": "Control Moment Gyroscope (CMG)-2 Vibration (g)"
+    },
+    "Z1000003": {
+        "Name": "Z1000003",
+        "Parent": "ADCO",
+        "Units": "G",
+        "Type": "{0:f2}",
+        "Description": "Control Moment Gyroscope (CMG)-3 Vibration (g)"
+    },
+    "Z1000004": {
+        "Name": "Z1000004",
+        "Parent": "ADCO",
+        "Units": "G",
+        "Type": "{0:f2}",
+        "Description": "Control Moment Gyroscope (CMG)-4 Vibration (g)"
+    },
+    "Z1000005": {
+        "Name": "Z1000005",
+        "Parent": "ADCO",
+        "Units": "AMP",
+        "Type": "{0:f2}",
+        "Description": "Control Moment Gyroscope (CMG)-1 Spin Motor Current (amps)"
+    },
+    "Z1000006": {
+        "Name": "Z1000006",
+        "Parent": "ADCO",
+        "Units": "AMP",
+        "Type": "{0:f2}",
+        "Description": "Control Moment Gyroscope (CMG)-2 Spin Motor Current (amps)"
+    },
+    "Z1000007": {
+        "Name": "Z1000007",
+        "Parent": "ADCO",
+        "Units": "AMP",
+        "Type": "{0:f2}",
+        "Description": "Control Moment Gyroscope (CMG)-3 Spin Motor Current (amps)"
+    },
+    "Z1000008": {
+        "Name": "Z1000008",
+        "Parent": "ADCO",
+        "Units": "AMP",
+        "Type": "{0:f2}",
+        "Description": "Control Moment Gyroscope (CMG)-4 Spin Motor Current (amps)"
+    },
+    "Z1000009": {
+        "Name": "Z1000009",
+        "Parent": "ADCO",
+        "Units": "RPM",
+        "Type": "{0:d0}",
+        "Description": "Control Moment Gyroscope (CMG) 1 Wheel Speed (rpm)"
+    },
+    "Z1000010": {
+        "Name": "Z1000010",
+        "Parent": "ADCO",
+        "Units": "RPM",
+        "Type": "{0:d0}",
+        "Description": "Control Moment Gyroscope (CMG) 2 Wheel Speed (rpm)"
+    },
+    "Z1000011": {
+        "Name": "Z1000011",
+        "Parent": "ADCO",
+        "Units": "RPM",
+        "Type": "{0:d0}",
+        "Description": "Control Moment Gyroscope (CMG) 3 Wheel Speed (rpm)"
+    },
+    "Z1000012": {
+        "Name": "Z1000012",
+        "Parent": "ADCO",
+        "Units": "RPM",
+        "Type": "{0:d0}",
+        "Description": "Control Moment Gyroscope (CMG) 4 Wheel Speed (rpm)"
+    },
+    "Z1000013": {
+        "Name": "Z1000013",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "0=RESET|1=NORMAL",
+        "Description": "Ku-Band Transmit"
+    },
+    "Z1000014": {
+        "Name": "Z1000014",
+        "Parent": "CATO",
+        "Units": "DEG",
+        "Type": "{0:f2}",
+        "Description": "Ku-Band SGANT Elevation Position"
+    },
+    "Z1000015": {
+        "Name": "Z1000015",
+        "Parent": "CATO",
+        "Units": "STATE",
+        "Type": "{0:f2}",
+        "Description": "Ku-Band SGANT Cross-Elevation Position"
+    },
+    "CSAMT000001": {
+        "Name": "CSAMT000001",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "1=WS1 | 2=WS2 | 3=WS3 | 4=WS4 | 5=WS5 | 6=WS6 |7=WS7 |8=WS8",
+        "Description": "MSS MT Utility Port ID (which Worksite MT is connected to, WS1 though WS8)"
+    },
+    "CSASSRMS001": {
+        "Name": "CSASSRMS001",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "?",
+        "Description": "MSS EDCD SSRMS Base Location"
+    },
+    "CSASSRMS002": {
+        "Name": "CSASSRMS002",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "1=Lab | 2=Node3 | 4=Node2 | 7=MBS PDGF 1 | 8=MBS PDGF 2 | 11=MBS PDGF 3 | 13=MBS PDGF 4 | 14=FGB | 16=POA | 19=SSRMS Tip LEE | 63=Undefined",
+        "Description": "MSS EDCD SSRMS Base Location"
+    },
+    "CSASSRMS003": {
+        "Name": "CSASSRMS003",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "0=Lee A | 5=Lee B",
+        "Description": "MSS EDCD SSRMS Operating Base (Which LEE is Base)"
+    },
+    "CSASSRMS004": {
+        "Name": "CSASSRMS004",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "SSRMS SR Measured Joint Position"
+    },
+    "CSASSRMS005": {
+        "Name": "CSASSRMS005",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "SSRMS SY Measured Joint Position"
+    },
+    "CSASSRMS006": {
+        "Name": "CSASSRMS006",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "SSRMS SP Measured Joint Position"
+    },
+    "CSASSRMS007": {
+        "Name": "CSASSRMS007",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "SSRMS EP Measured Joint Position"
+    },
+    "CSASSRMS008": {
+        "Name": "CSASSRMS008",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "SSRMS WP Measured Joint Position"
+    },
+    "CSASSRMS009": {
+        "Name": "CSASSRMS009",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "SSRMS WY Measured Joint Position"
+    },
+    "CSASSRMS010": {
+        "Name": "CSASSRMS010",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "SSRMS WR Measured Joint Position"
+    },
+    "CSASSRMS011": {
+        "Name": "CSASSRMS011",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "0=Released|1=Captive|2=Captured",
+        "Description": "MSS OCS Payload Status SSRMS Tip LEE"
+    },
+    "CSASPDM0001": {
+        "Name": "CSASPDM0001",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "?",
+        "Description": "MSS OCS Base Location SPDM"
+    },
+    "CSASPDM0002": {
+        "Name": "CSASPDM0002",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "1=Lab | 2=Node3 | 4=Node2 | 7=MBS PDGF 1 | 8=MBS PDGF 2 | 11=MBS PDGF 3 | 13=MBS PDGF 4 | 14=FGB | 16=POA | 19=SSRMS Tip LEE | 63=Undefined",
+        "Description": "MSS OCS Base Location SPDM"
+    },
+    "CSASPDM0003": {
+        "Name": "CSASPDM0003",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 1 SR Measured Joint Position"
+    },
+    "CSASPDM0004": {
+        "Name": "CSASPDM0004",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 1 SY Measured Joint Position"
+    },
+    "CSASPDM0005": {
+        "Name": "CSASPDM0005",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 1 SP Measured Joint Position"
+    },
+    "CSASPDM0006": {
+        "Name": "CSASPDM0006",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 1 EP Measured Joint Position"
+    },
+    "CSASPDM0007": {
+        "Name": "CSASPDM0007",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 1 WP Measured Joint Position"
+    },
+    "CSASPDM0008": {
+        "Name": "CSASPDM0008",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 1 WY Measured Joint Position"
+    },
+    "CSASPDM0009": {
+        "Name": "CSASPDM0009",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 1 WR Measured Joint Position"
+    },
+    "CSASPDM0010": {
+        "Name": "CSASPDM0010",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "0=Released|1=Captive|2=Captured",
+        "Description": "MSS Payload Status OCS SPDM Arm 1 OTCM"
+    },
+    "CSASPDM0011": {
+        "Name": "CSASPDM0011",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 2 SR Measured Joint Position"
+    },
+    "CSASPDM0012": {
+        "Name": "CSASPDM0012",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 2 SY Measured Joint Position"
+    },
+    "CSASPDM0013": {
+        "Name": "CSASPDM0013",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 2 SP Measured Joint Position"
+    },
+    "CSASPDM0014": {
+        "Name": "CSASPDM0014",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 2 EP Measured Joint Position"
+    },
+    "CSASPDM0015": {
+        "Name": "CSASPDM0015",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 2 WP Measured Joint Position"
+    },
+    "CSASPDM0016": {
+        "Name": "CSASPDM0016",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 2 WY Measured Joint Position"
+    },
+    "CSASPDM0017": {
+        "Name": "CSASPDM0017",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM 2 WR Measured Joint Position"
+    },
+    "CSASPDM0018": {
+        "Name": "CSASPDM0018",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "?",
+        "Description": "MSS Payload Status OCS SPDM Arm 2 OTCM?"
+    },
+    "CSASPDM0019": {
+        "Name": "CSASPDM0019",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "0=Released|1=Captive|2=Captured",
+        "Description": "MSS Payload Status OCS SPDM Arm 2 OTCM"
+    },
+    "CSASPDM0020": {
+        "Name": "CSASPDM0020",
+        "Parent": "CSA",
+        "Units": "DEG",
+        "Type": "Angle",
+        "Description": "MSS OCS SPDM Body Roll Joint Position"
+    },
+    "CSASPDM0021": {
+        "Name": "CSASPDM0021",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "?",
+        "Description": "MSS Payload Status OCS SPDM Body?"
+    },
+    "CSASPDM0022": {
+        "Name": "CSASPDM0022",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "0=Released|1=Captive|2=Captured",
+        "Description": "MSS Payload Status OCS SPDM Body"
+    },
+    "CSAMBS00001": {
+        "Name": "CSAMBS00001",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "?",
+        "Description": "MSS OCS Payload Status MBS MCAS?"
+    },
+    "CSAMBS00002": {
+        "Name": "CSAMBS00002",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "0=Released|1=Captured",
+        "Description": "MSS OCS Payload Status MBS MCAS"
+    },
+    "CSAMBA00003": {
+        "Name": "CSAMBA00003",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "?",
+        "Description": "MSS OCS Payload Status MBS POA?"
+    },
+    "CSAMBA00004": {
+        "Name": "CSAMBA00004",
+        "Parent": "CSA",
+        "Units": "STATE",
+        "Type": "0=Released|1=Captive|2=Captured",
+        "Description": "MSS OCS Payload Status MBS POA"
+    }
+}

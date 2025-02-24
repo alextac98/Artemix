@@ -1,5 +1,6 @@
 services:
-  questdb:
+  artemix-db:
+    container_name: artemix-db
     extends:
       file: artemix-db/docker-compose.yaml
       service: questdb

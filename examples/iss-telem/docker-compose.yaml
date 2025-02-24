@@ -1,7 +1,7 @@
 services:
   iss-telem-ingester:
     container_name: iss-telem-ingester
-    image: artemix-api
+    image: artemix-telem/iss-telem-ingester
     build:
       context: .
       dockerfile: Dockerfile
