@@ -1,3 +1,4 @@
+import logging
 import time
 import datetime as dt
 from lightstreamer.client import LightstreamerClient, Subscription, SubscriptionListener
@@ -43,7 +44,7 @@ class SubListener():
 
         self.db_sender = Sender(
             Protocol.Http,
-            'artemix-db',
+            'paloaltolin.home.alextac.com',
             9000,
             auto_flush=True,
             auto_flush_interval=dt.timedelta(seconds=5)
@@ -58,8 +59,10 @@ class SubListener():
             self.db_sender.flush()
             self.db_sender.close()
 
+    def flush_queue(self):
+        self.db_sender.flush()
+
     def onItemUpdate(self, update):
-        # print(f"UPDATE: {update}")
         item_name = update.getItemName()
         telem_def_row = self.telem_definition.get(item_name, {})
 
@@ -67,24 +70,20 @@ class SubListener():
         if telem_def_row.get("Units") == "STATE":
             columns["short"] = "UNKNOWN"
 
-        # self.db_sender.row(
-        #     self.table_name,
-        #     symbols={
-        #         "parent": telem_def_row.get("Parent", ""),
-        #         "channel": telem_def_row.get("Name", "")
-        #     },
-        #     columns=columns,
-        #     at=iss_time_to_timestamp(float(update.getValue("TimeStamp")))
-        # )
-        self.db_sender.flush()
-        print("sent")
-        
-        # print(f"Telemetry from {update.getItemName()}")
-        # for line in SCHEMA:
-            # value = update.getValue(line)
-            # print(f"\t{line}: {value}")
-            # if line == "TimeStamp":
-                # print(f"\tUnixTimestamp: {iss_time_to_timestamp(float(value))}")
+        try:
+            self.db_sender.row(
+                self.table_name,
+                symbols={
+                    "parent": telem_def_row.get("Parent", ""),
+                    "channel": telem_def_row.get("Name", "")
+                },
+                columns=columns,
+                at=iss_time_to_timestamp(float(update.getValue("TimeStamp")))
+            )
+        except Exception as e:
+            print(e)
+
+       
 
 
 if __name__ == "__main__":
@@ -102,12 +101,14 @@ if __name__ == "__main__":
     channels = iss_telem_def.keys()
 
     sub = Subscription("MERGE", channels, SCHEMA)
-    sub.addListener(SubListener(table_name=table_name, telem_definition=iss_telem_def))
+    listener = SubListener(table_name=table_name, telem_definition=iss_telem_def)
+    sub.addListener(listener)
     client.subscribe(sub)
 
     try:
         while True:
-            time.sleep(0.5)
+            time.sleep(1)
+            listener.flush_queue()
     except KeyboardInterrupt:
         print("Keyboard interrupt!")
         sub.__del__()
