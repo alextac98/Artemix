@@ -1,1 +1,5 @@
 *.venv
+
+# UI Build Files
+.*/target/*
+.*/dist/*

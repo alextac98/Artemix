@@ -1,0 +1,15 @@
+---
+services:
+  artemix-ui:
+    container_name: artemix-ui
+    image: artemix/ui-build
+    build:
+      dockerfile: build.Dockerfile
+    volumes:
+      - ./:/artemix/
+    ports:
+      - 8080:8080
+    working_dir: /artemix
+    command: [
+      "trunk", "serve", "--address", "0.0.0.0"
+    ]
