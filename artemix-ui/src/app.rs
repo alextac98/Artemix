@@ -3,12 +3,15 @@
 compile_error!("This crate is intended to compile only for the web (wasm32 target).");
 
 use crate::homepage::Homepage;
+#[cfg(target_arch = "wasm32")]
+use web_sys::wasm_bindgen::JsValue;
+#[cfg(target_arch = "wasm32")]
+use web_sys::window;
 
 #[derive(serde::Deserialize, serde::Serialize, PartialEq)]
 enum Tab {
     Home,
     Plotter,
-    About,
 }
 
 impl Default for Tab {
@@ -44,18 +47,22 @@ impl Default for ArtemixApp {
 impl ArtemixApp {
     /// Called once before the first frame.
     pub fn new(_cc: &eframe::CreationContext<'_>) -> Self {
-        // This is also where you can customize the look and feel of egui using
-        // `cc.egui_ctx.set_visuals` and `cc.egui_ctx.set_fonts`.
-
-        // Load previous app state (if any).
-        // Note that you must enable the `persistence` feature for this to work.
-        // if let Some(storage) = cc.storage {
-        //     return eframe::get_value(storage, eframe::APP_KEY).unwrap_or_default();
-        // }
-
-        return Self {
+        #[cfg_attr(not(target_arch = "wasm32"), allow(unused_mut))]
+        let mut app = Self {
             ..Default::default()
         };
+        // Deep link: set tab based on URL path
+        #[cfg(target_arch = "wasm32")]
+        if let Some(win) = window() {
+            if let Ok(path) = win.location().pathname() {
+                match path.as_str() {
+                    "/" => app.active_tab = Tab::Home,
+                    "/plot" | "/plot/" => app.active_tab = Tab::Plotter,
+                    _ => {}
+                }
+            }
+        }
+        app
     }
 
     fn top_bar(&mut self, ui: &mut egui::Ui) {
@@ -82,12 +89,33 @@ impl eframe::App for ArtemixApp {
         // For inspiration and more examples, go to https://emilk.github.io/egui
 
         egui::TopBottomPanel::top("top_panel").show(ctx, |ui| {
-            egui::menu::bar(ui, |ui| {
-                self.top_bar(ui);
+            ui.horizontal(|ui| {
+                // App title
+                ui.label(&self.name);
                 ui.separator();
-                ui.selectable_value(&mut self.active_tab, Tab::Home, "Home");
-                ui.selectable_value(&mut self.active_tab, Tab::Plotter, "Plotter");
-                ui.selectable_value(&mut self.active_tab, Tab::About, "About");
+                // Home tab
+                let home_btn = ui.selectable_value(&mut self.active_tab, Tab::Home, "Home");
+                if home_btn.clicked() {
+                    #[cfg(target_arch = "wasm32")]
+                    if let Some(win) = window() {
+                        let _ = win.history().unwrap()
+                            .push_state_with_url(&JsValue::NULL, "", Some("/")).unwrap();
+                    }
+                }
+                // Plot tab
+                let plot_btn = ui.selectable_value(&mut self.active_tab, Tab::Plotter, "Plotter");
+                if plot_btn.clicked() {
+                    #[cfg(target_arch = "wasm32")]
+                    if let Some(win) = window() {
+                        let _ = win.history().unwrap()
+                            .push_state_with_url(&JsValue::NULL, "", Some("/plot")).unwrap();
+                    }
+                }
+                
+                // Theme switch on the right
+                ui.with_layout(egui::Layout::right_to_left(egui::Align::Center), |ui| {
+                    egui::widgets::global_theme_preference_switch(ui);
+                });
             });
         });
 
@@ -99,12 +127,6 @@ impl eframe::App for ArtemixApp {
             }
             Tab::Plotter => {
                 self.plotter_app.ui(ctx, _frame);
-            }
-            Tab::About => {
-                egui::CentralPanel::default().show(ctx, |ui| {
-                    ui.heading("About");
-                    ui.label("Artemix version 0.1.0");
-                });
             }
         }
     }
