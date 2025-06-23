@@ -1,6 +1,6 @@
 mod plotter;
+mod sidebar;
 
-// mod side_bar;
 // mod splitter;
 
 pub use plotter::Plotter;

@@ -1,5 +1,6 @@
 use egui::{Ui, WidgetText};
 use egui_dock::{DockArea, DockState, Style, TabViewer};
+use crate::plotter::sidebar::Sidebar;
 
 type Tab = String;
 
@@ -25,28 +26,34 @@ impl TabViewer for MyTabViewer {
 
 pub struct Plotter {
     dock_state: DockState<Tab>,
+    sidebar: Sidebar,
 }
 
 impl Plotter {
     pub fn new() -> Self {
-        let tabs = ["tab1", "tab2", "tab3"]
+        let tabs = ["tab1"]
             .map(str::to_string)
             .into_iter()
             .collect();
         return Self {
             dock_state: DockState::new(tabs),
+            sidebar: Sidebar::new(),
         };
     }
-    pub fn ui(&mut self, ctx: &egui::Context, frame: &mut eframe::Frame) {
+    pub fn ui(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         let side_panel_frame = egui::Frame::default().inner_margin(8);
+        
+        // Calculate max width as percentage of screen width
+        let screen_width = ctx.screen_rect().width();
+        
         egui::SidePanel::left("SidePanel")
             .frame(side_panel_frame)
             .resizable(true)
-            .default_width(250.0)
+            .default_width(screen_width *  0.2)
+            .min_width(screen_width * 0.1)
+            .max_width(screen_width * 0.8)
             .show(ctx, |ui| {
-                egui::ScrollArea::both().show(ui, |ui| {
-                    ui.label("Side Panel");
-                });
+                self.sidebar.ui(ui);
             });
 
         let central_frame = egui::Frame::default().inner_margin(0);
@@ -66,6 +73,6 @@ impl Plotter {
 
 impl eframe::App for Plotter {
     fn update(&mut self, ctx: &egui::Context, frame: &mut eframe::Frame) {
-        println!("Hi mom!");
+        self.ui(ctx, frame);
     }
 }
