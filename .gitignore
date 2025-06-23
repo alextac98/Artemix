@@ -1,5 +1,5 @@
 *.venv
 
 # UI Build Files
-.*/target/*
-.*/dist/*
+*/target/*
+*/dist/*
