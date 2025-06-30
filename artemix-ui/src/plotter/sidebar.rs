@@ -323,7 +323,7 @@ impl Sidebar {
                 // Add the case sensitivity button
                 let case_button_text = if self.case_sensitive { "Aa" } else { "aa" };
                 let case_button_color = if self.case_sensitive {
-                    egui::Color32::from_rgb(100, 150, 255)
+                    ui.visuals().selection.bg_fill
                 } else {
                     ui.visuals().widgets.inactive.bg_fill
                 };

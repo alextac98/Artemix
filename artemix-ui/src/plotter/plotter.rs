@@ -41,13 +41,10 @@ impl Plotter {
         };
     }
     pub fn ui(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
-        let side_panel_frame = egui::Frame::default().inner_margin(8);
-        
         // Calculate max width as percentage of screen width
         let screen_width = ctx.screen_rect().width();
         
         egui::SidePanel::left("SidePanel")
-            .frame(side_panel_frame)
             .resizable(true)
             .default_width(screen_width *  0.2)
             .min_width(screen_width * 0.1)
